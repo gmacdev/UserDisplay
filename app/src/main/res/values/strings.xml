@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">User Display</string>
     <string name="title">CONTACTS</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
     <string name="loading">loading…</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="already_a_user_login">Already a user? Login</string>
+    <string name="not_a_user_register">Not a user? Register</string>
+    <string name="checking_credentials">Checking Credentials</string>
+    <string name="enter_valid_email">Enter Valid Email</string>
+    <string name="auto_fill_credentials">Auto-Fill Credentials</string>
+    <string name="demo_email">eve.holt@reqres.in</string>
+    <string name="demo_password">cityslicka</string>
 </resources>
