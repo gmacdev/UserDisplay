@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">User Display</string>
-    <string name="title">Contacts</string>
+    <string name="title">CONTACTS</string>
     <string name="loading">loading…</string>
 </resources>
