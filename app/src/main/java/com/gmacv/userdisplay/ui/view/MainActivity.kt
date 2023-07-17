@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private fun showSnackBarWithAction(message: String) {
         val snack = Snackbar.make(binding.main, message, Snackbar.LENGTH_INDEFINITE)
+            .setAnchorView(binding.fab)
         snack.setAction("Refresh") {
             mainViewModel.loadAllData()
         }

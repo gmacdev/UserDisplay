@@ -112,7 +112,8 @@ class AuthActivity : AppCompatActivity(R.layout.activity_auth) {
     }
 
     private fun showSnackBar(message: String) {
-        Snackbar.make(binding.switchButton, message, Snackbar.LENGTH_LONG).show()
+        Snackbar.make(binding.main, message, Snackbar.LENGTH_LONG)
+            .setAnchorView(binding.switchButton).show()
     }
 
     private fun hideKeyboard() {
